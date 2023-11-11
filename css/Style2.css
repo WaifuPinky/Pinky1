@@ -25,6 +25,8 @@ table {
 }
 
 th, td {
+    width: 50%;
+
     border: 1px solid #ff6387;
     background-color: lightpink;
     padding: 8px;
