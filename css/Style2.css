@@ -1,3 +1,11 @@
+/* header ul li{
+   
+    display: inline-block;
+    list-style:inside;
+    margin: 0px 20px;
+    align-content: center;
+} */
+
 body { 
     background: pink;
     height: 450px;
@@ -23,6 +31,31 @@ th, td {
     text-align: left;
 }
 
+/* header{
+    width: 95%;
+    background: pink;
+    padding: 12px ;
+    margin: 10px 0px;
+    border: pink ;
+    border-radius: 4px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    text-align: center; 
+
+} */
+
+div{
+    width: 95%;
+    background: pink;
+    padding: 12px ;
+    margin: 10px 0px;
+    border: pink ;
+    border-radius: 4px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    /* text-align: center; */
+}
+
 /* .prices{
     text-align: center;
 } */
@@ -39,45 +72,19 @@ th, td {
     height: 70px;
     margin: auto;
     display: flex;
-    align-items: center;
+    align-items: stretch center;
     background-color:  #fccad6d3;
 }
 
-
-/* p-style1{
-
-
-} */
-
-header ul li{
-    display: inline-block;
-    list-style: none;
-    margin: 0px 20px;
+.infoCommssion{
+    text-align: center;
 }
-
-div ul li{
+.container01{
+    text-align: center;
+}
+ul li{
     list-style: none;
     display: inline-block;
-}
-div {
-    width: 95%;
-    background: pink;
-    padding: 12px ;
-    margin: 10px 0px;
-    border: pink ;
-    border-radius: 4px ;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16px;
-    
-    /* text-align: center; */
-}
-
-
-
-.article{
-
-    vertical-align: middle;
-
 }
 
 /* .p-style1{
@@ -85,14 +92,33 @@ div {
     ;
 } */
 
-
+.button {
+    width: 85%; /* Ajusta el ancho según tu preferencia */
+    max-width: 400px;
+    border: 1px solid #ff6387;
+    /* background: rgb(254, 215, 221);
+    box-shadow: 2px 6px 3px #fe9ab1; */
+    padding: 12px ;
+    margin: 6px 0px;
+    
+    border-radius: 10px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font:#3e3f2f;
+    font-size: 16px;
+    text-align: center;
+}
+.button:hover {
+    background-color: #fe9ab1; /* Cambia el color de fondo al pasar el mouse por encima */
+    color: #3e3f2f; /* Cambia el color de texto al pasar el mouse por encima */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse por encima para indicar que es interactivo */
+}
 .form-Commisions{
     width: 85%;
     box-sizing: border-box;
     background: #fcdce4;
     padding: 30px;
     margin: auto;
-    margin-top: 70px;
+    margin-top: 50px;
     border-radius: 4px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-shadow: 7px 13px 37px #ff6387;
