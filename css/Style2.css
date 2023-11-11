@@ -94,6 +94,10 @@ ul li{
     ;
 } */
 
+/* .imagenes{
+align-items:center;
+} */
+
 .button {
     width: 85%; /* Ajusta el ancho según tu preferencia */
     max-width: 400px;
